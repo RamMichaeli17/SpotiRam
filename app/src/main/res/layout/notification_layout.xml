@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient4"
+    android:layoutDirection="ltr"
+    android:id="@+id/notif_pic">
+    <ImageButton
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:background="@null"
+        android:src="@drawable/cancel"
+        android:id="@+id/close_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/topLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/songImageNotification"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:scaleType="fitXY"></ImageView>
+
+
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Media Player"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topLay">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/previous_btn"
+            android:scaleType="fitXY"
+            android:backgroundTint="@null"
+            android:background="@drawable/prev_selector"
+            android:padding="10dp"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/play_btn"
+            android:scaleType="fitXY"
+            android:backgroundTint="@null"
+            android:background="@drawable/play_selector"
+            android:padding="10dp"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/pause_btn"
+            android:scaleType="fitXY"
+            android:backgroundTint="@null"
+            android:background="@drawable/pause_selector"
+            android:padding="10dp"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/next_btn"
+            android:scaleType="fitXY"
+            android:backgroundTint="@null"
+            android:background="@drawable/next_selector"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient3"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/fisrtLayout"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/greatholiday"
+            android:text="Upload music"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Song Name:"
+            android:gravity="center"
+            style="@style/textView"
+            android:id="@+id/songNameInfo">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/editText"
+            android:id="@+id/songnameET"
+            android:background="@drawable/border">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist Name:"
+            android:gravity="center"
+            android:id="@+id/ArtistName"
+            style="@style/textView">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:id="@+id/artistnameET"
+            android:layout_gravity="center"
+            style="@style/editText"
+
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Song Link:"
+            android:gravity="center"
+            android:id="@+id/songLink"
+            style="@style/textView">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/songlinkET"
+            style="@style/editText"
+            android:padding="10dp"
+            android:background="@drawable/border">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image:  "
+            android:textSize="35sp"
+            android:fontFamily="@font/greatholiday"
+            android:textColor="@color/white"/>
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/camera"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:id="@+id/cameraImageButton"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gallery"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:id="@+id/galleryImageButton"
+            android:layout_marginStart="20dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/pictureToBeAdded"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="30dp"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

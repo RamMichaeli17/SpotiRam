@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient3"
+    android:layoutDirection="ltr">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/greatholiday"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Bob Dylan"
+        android:textStyle="bold"
+        android:id="@+id/second_artist_name"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/greatholiday"
+        android:textSize="40sp"
+        android:text="One more cup of coffee"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/second_song_name"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/bobdylan"
+        android:id="@+id/second_picture"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:layout_weight="1"
+        />
+
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/back"
+        android:id="@+id/backButton"
+        android:scaleType="fitXY"
+        android:layout_marginStart="10dp"/>
+
+
+</LinearLayout>

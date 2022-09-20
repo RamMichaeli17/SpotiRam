@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardElevation="0dp"
+    android:layout_marginBottom="10dp">
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/songPictureIV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/songPictureIV"
+        android:fontFamily="@font/gothammedium"
+        android:text="Song Name"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewName"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/songPictureIV"
+            android:fontFamily="@font/gothammedium"
+            android:text="Artist"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

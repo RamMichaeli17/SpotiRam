@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/corners.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/custom_yes_button.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/custom_yes_p_btn.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/gradient4.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/gradient5.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/next_selector.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/no_selector.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/pause_selector.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/play_selector.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/prev_selector.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable-v24/yes_selector.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable/avd_pause_to_play.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable/avd_play_to_pause.xml" value="0.4203125" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable/gradient3.xml" value="0.246875" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/drawable/ic_android.xml" value="0.246875" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/layout/add_song_dialog.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/layout/delete_song_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/layout/example_item.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/layout/notification_layout.xml" value="0.536" />
+        <entry key="..\:/Users/ram15/AndroidStudioProjects/RamMichaelisMusicPlayer/app/src/main/res/layout/second_activity.xml" value="0.4041666666666667" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
